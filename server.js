@@ -25,7 +25,7 @@ const PORT = process.env.PORT || 4040
 
 // CREATE BASE ROUTE
 app.use('/', (req, res)=>{
-    res.status(200).json({message: "API UP!"})
+    res.status(200).json({message: "API UP and RUNNING!"})
 })
 
 // LISTEN
